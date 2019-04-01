@@ -76,7 +76,7 @@ class student(data):
             raise Exception
 
     def id_number(self):
-        return self.__id_number
+        return __id_number
     
     def __getitem__(self,key):
         return self.__grades[key]
